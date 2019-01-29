@@ -5,7 +5,7 @@ const restaurantDom = {
     create: rest => `
         <section class="restaurant" id="restaurant--${rest.id}">
             <header class="restaurant__header">
-                <h1>${rest.name}</h1>
+                <h1 class="restaurant__name--${rest.id}">${rest.name}</h1>
             </header>
             <main class="restaurant__details">
                 <div class="restaurant__cuisines">${rest.cuisines}</div>
