@@ -1,3 +1,3 @@
-import events from "./restaurants/events.mjs"
+import restaurants from "./restaurants/main.mjs"
 
-events.init()
+restaurants.init()
