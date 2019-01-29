@@ -1,0 +1,9 @@
+@import "./restaurants/restaurants.css";
+
+#output {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
